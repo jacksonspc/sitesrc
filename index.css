@@ -1,6 +1,8 @@
 body {
 	background-color: #555b61;
 }
+.JackExpandNode li {
+}
 
 #searchbar #searchBarInput {
 	border-radius: 10px;
@@ -18,13 +20,17 @@ body {
 	text-align: center;
 	list-style: none;
 }
-
+#blogsearchlist li ul {
+	display:none;
+}
+#blogsearchlist li ul li {
+	width: 100%;
+	background-color: grey;
+}
 #blogsearchlist {
 	padding: 0;
 	width: 3000px;
 	margin-top: 12px;
 	left: 0px;
 }
-
-
 
